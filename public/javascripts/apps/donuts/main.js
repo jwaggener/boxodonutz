@@ -2,5 +2,6 @@ require([
 	'donuts'
 ], function( Donuts ){
 	//start the app
-	Donuts.init();
+	//when the document has loaded
+	$( Donuts.init() );
 });
