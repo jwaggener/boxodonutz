@@ -2,7 +2,9 @@ define([],function(){
 	
 	var en_us = { "en_us":{
 		
-		"title" : "Box o' Donutz"
+		"title" : "Box O' Donutz",
+		"dozen" : "A Dozen Donuts",
+		"hundred" : "One Hundred Donuts"
 		
 	} }
 	
