@@ -1,4 +1,7 @@
-<h1><%=lang.getText( "title", locale )%></h1>
-<input type="radio" name="quantity" value="dozen" /><%=lang.getText( "dozen", locale )%><br />
-<input type="radio" name="quantity"  value="hundred" /><%=lang.getText( "hundred", locale )%>
-<div class="containerForBox" ></div>
+<h1 class="left white" ><%=lang.getText( "title", locale )%></h1>
+<form id="placeOrder" class="right white" >
+  <label class="placeOrder" >Order here:</label><br/>
+  <input type="radio" id="dozen" name="quantity" value="dozen" class="pointer" checked="checked" /><label for="dozen" class="pointer" ><%=lang.getText( "dozen", locale )%></label><br />
+  <input type="radio" id="hundred" name="quantity"  value="hundred" class="pointer" /><label for="hundred" class="pointer" ><%=lang.getText( "hundred", locale )%></label>
+</form>
+<br class="clear" />

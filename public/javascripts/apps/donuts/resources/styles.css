@@ -1,0 +1,78 @@
+@font-face {  
+  font-family: boxy ;  
+  src: url( 'fonts/foldstruct.ttf' ) format("truetype");  
+}  
+body{
+	background-color: #0A2B4E;
+	background-image: url('images/bg_bluedots_10_small.png');
+	margin: 0;
+	padding: 0;
+}
+h1{
+	margin: 15px 15px;
+	font-family: 'Kaushan Script', cursive, verdana, helvetica, sans-serif;
+	font-size: 3em;
+	display: inline-block;
+}
+.index{
+	width: 840px;
+}
+.index form{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.index form label{
+	margin-left: 10px;
+}
+.donut{
+	margin: 1px;
+	padding: 10px;
+}
+.pointer{
+	cursor: pointer;
+}
+.white{
+	color: white;
+}
+.left{
+	float: left;
+}
+.right{
+	float: left;
+}
+.clear{
+	clear: both;
+}
+.center{
+	margin: 0 auto;
+}
+.brightBlue{
+	background-color: #03A0F2;
+}
+.brightGreen{
+	background-color: #7BF203;
+}
+.brightPurple{
+	background-color: #7303F2;
+}
+.brightPink{
+	background-color: #F20388;
+}
+.birghtYelloGreen{
+	background-color: #C3F203;
+}
+.afternoonSky{
+	background-color: #6095C9;
+}
+.citrom{
+	background-color: #FBFF6A;
+}
+.coralLips{
+	background-color: #FF3B33;
+}
+.balloonBlue{
+	background-color: #3D44AE;
+}
+.orangBalloon{
+	background-color: #FC5B17;
+}

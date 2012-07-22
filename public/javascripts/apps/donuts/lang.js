@@ -10,7 +10,6 @@ define( [], function(){
 				}
 			},
 			getText:function( itemid, langid ){
-				console.log( "getText");
 				var language = langid || _defaultLanguage;
 				if( !_lang[ language ] ){ return "hfkhasdkjf" };//simple error checking. returning null if the objects are not present.
 				if( !_lang[ language ][ itemid ] ){ return "" };

@@ -31,12 +31,12 @@ define([
 		var base = "/javascripts/apps/donuts/resources/images/"
 		//yumminess level - 1-5, 5 is the most yummy
 		return [
-			{ id: 0, imgsrc: base + "001.png", yumminess: 5 },
-			{ id: 1, imgsrc: base + "002.png", yumminess: 4 },
-			{ id: 2, imgsrc: base + "003.png", yumminess: 2 },
-			{ id: 3, imgsrc: base + "004.png", yumminess: 5 },
-			{ id: 4, imgsrc: base + "005.png", yumminess: 4 },
-			{ id: 5, imgsrc: base + "006.png", yumminess: 5 }
+			{ id: 0, imgsrc: base + "001.png", imgsrcmed: base + "001_med.png", yumminess: 5 },
+			{ id: 1, imgsrc: base + "002.png", imgsrcmed: base + "002_med.png", yumminess: 4 },
+			{ id: 2, imgsrc: base + "003.png", imgsrcmed: base + "003_med.png", yumminess: 2 },
+			{ id: 3, imgsrc: base + "004.png", imgsrcmed: base + "004_med.png", yumminess: 5 },
+			{ id: 4, imgsrc: base + "005.png", imgsrcmed: base + "005_med.png", yumminess: 4 },
+			{ id: 5, imgsrc: base + "006.png", imgsrcmed: base + "006_med.png", yumminess: 5 }
 		];
 	}
 	
